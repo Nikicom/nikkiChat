@@ -1,4 +1,4 @@
-var socket = io.connect('http://localhost:5000');
+var socket = io.connect('https://enigmatic-reef-74873.herokuapp.com/');
 
 var message = document.getElementById('message');
 username = document.getElementById('username');
